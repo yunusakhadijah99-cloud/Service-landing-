@@ -12,7 +12,7 @@
     <header class="header">
         <a href="#"><img src="./Images/logo.jpg" alt="logo"></a>
         <div class="navMenu" id="navMenu">
-            <i class="bx bxf-x-circle" onclick="closemenu"></i>
+            <i class="bx bxf-x-circle" onclick="closeMenu"></i>
             <ul>
                 <li><a href="index.html">Home</a></li>
                 <li><a href="about.html">About</a></li>
@@ -21,7 +21,7 @@
                    <li><a href="contact.html">Contact</a></li>
             </ul>
         </div>
-                   <i class="bx bxf-menu" onclick="openmenu ()"></i>
+                   <i class="bx bxf-menu" onclick="openMenu ()"></i>
     </header>
     <!---------- home ---------->
     <section class="home" id="home">
@@ -124,7 +124,7 @@ Through Bineesh Candies and More, she continues to grow her passion into a trust
     function openMenu(){
         navMenu.style.right = "0";
     }
-    function closemenu(){
+    function closeMenu(){
         navMenu.style.right = "-200px";
     }
 </script>
