@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width,initial-scale=1.0">
+ <title>My portfolio</title>
+ <link href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css" rel="stylesheet">
+    <link rel ="stylesheet" href="style.css">
+</head>
+<body>
+    <!---------- header ---------->
+    <header class="header">
+        <a href="#"><img src="./Images/logo.jpg" alt="logo"></a>
+        <div class="navMenu" id="navMenu">
+            <i class="bx bxf-x-circle" onclick="closemenu"></i>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                 <li><a href="services.html">Services</a></li>
+                  <li><a href="portfolio.html">Portfolio</a></li>
+                   <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </div>
+                   <i class="bx bxf-menu" onclick="openmenu ()"></i>
+    </header>
+    <!---------- home ---------->
+    <section class="home" id="home">
+        <div class="home-content">
+            <div class="show">
+                <span class="first">Hello</span>
+                  <span class="second">I'm</span>
+                  </div>
+                   <h1>Yunusa Khadijah</h1> <h3>Catering <b><i>Entrepreneur</i></b></h3>
+                    <p>We prepare and deliver fresh, delicious snacks and drinks, turning passion for food into a satisfying experience for customers.</p>
+                  <div class="button">
+                      <a href="#" class="btn">Order</a>
+                  </div>
+        </div>
+    </section>
+    <!---------- about ---------->
+    <section class="about" id="about">
+        <div class="about-text">
+            <h2>About<br><span><i><b>Bineesh Candies and More</b></i></span></h2>
+            <h4><b>Catering Entrepreneur</b></h4>
+            <p>A passionate and hardworking entrepreneur dedicated to delivering quality homemade treats and local delicacies. With a strong love for food and creativity, she started the brand with the vision of bringing fresh, tasty, and affordable snacks to her community.
+Her commitment to hygiene, quality ingredients, and customer satisfaction is at the heart of everything she does. From sweet candies to refreshing drinks and local favorites, she ensures every product is made with care and attention to detail.
+Through Bineesh Candies and More, she continues to grow her passion into a trusted brand known for great taste, freshness, and a delightful experience.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+    <!---------- services ---------->
+    <section class="services" id="services">
+        <div class="text-title">
+        <h2><span>Our</span> Services</h2>    
+    </div>
+    <div class="service-content">
+        <div class="box">
+            <h3>CANDIES</h3>
+            <p>At <i><b>Bineesh Candies and More</b></i>, we craft delicious treats like creamy milk candies, crunchy coconut flakes, and yummy milk balls, made to satisfy your taste buds with a beautiful experience. With quality natural ingredients, everything is made freshly for you.</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+        <div class="box">
+           <h3>DRINKS</h3>
+            <p>At <i><b>Bineesh Candies and More</b></i>,Stay refreshed with our naturally made drinks, including rich, flavorful zobo, prepared hygienically to keep you cool, healthy, and energized.</p>
+            <a href="#" class="btn">Read more</a>
+            </div>
+        <div class="box">
+           <h3>FAVOURITES</h3>
+            <p>At <i><b>Bineesh Candies and More</b></i>, we bring you local and delicious favourites like soft gurasa and tasty awara, freshly prepared to deliver authentic taste and comfort in every bite.</p>
+            <a href="#" class="btn">Read more</a>
+        </div>
+        </div>
+    </section>
+    <!---------- portfolio ------------>
+<section class="portfolio" id="portfolio">
+ <div class  ="text-title">
+ <h2>Recent Projects</h2>   
+ </div>
+ <div class="portfolio-content">
+     <div class="row">
+         <img src="./Images/Milk candies.jpg" alt="milk candy pack">
+         </div>
+         <div class="row">
+         <img src="./Images/coconut flakes.jpg" alt="coconut flakes pack">
+         </div>
+  <div class="row">
+         <img src="./Images/zobo.jpg" alt="zobo bottles">
+        </div>
+  <div class="row">
+         <img src="./Images/Awara.jpg" alt="Awara pack">
+        </div>
+  <div class="row">
+         <img src="./Images/Gurasa.jpg" alt="gurasa pack">
+         </div>
+ </div>
+</section>
+ <!---------- contact ---------->
+ <section class="contact" id="contact">
+     <div class="contact-text">
+         <h2>Contact <span>Us</span></h2>
+         <div class="list">
+             <li><a href="a">08163551814</a></li>
+             <li><a href="a">yunusakhadijah99@gmail.com</a></li>
+             <li><a href="a">like,share and comment</a></li>
+         </div>
+         <div class="icon">
+             <a href="#"><i class="bx bxl-whatsapp"></i></a>
+               <a href="#"><i class="bx bxl-instagram"></i></a>
+              </div>
+     </div>
+ </section>
+  <!---------- footer ---------->
+  <footer class="footer">
+      <div class="attribution">
+          <p>Made with <i class="bx bxs-heart"></i>by <i><b>Bineesh Candies and More</b></i></p>
+      </div>
+      <div class="move-up">
+          <a href="#home"><i class="bx bxf-arrow-up"></i></a>
+      </div>
+  </footer>
+  <!---------- JS for toggle menu ---------->
+  <script>
+    var navMenu = document.getElementById("navMenu");
+    function openMenu(){
+        navMenu.style.right = "0";
+    }
+    function closemenu(){
+        navMenu.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
+   
